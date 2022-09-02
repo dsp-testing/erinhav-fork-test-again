@@ -2,7 +2,7 @@
 """
 import yaml
 
-def load_from_yaml(self, filepath: str, model_identifiers: Dict[str, List[str]]):
+def load_from_yaml_1(self, filepath: str, model_identifiers: Dict[str, List[str]]):
   """
   Load fixtures from the given filename
   """
