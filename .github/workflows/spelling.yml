@@ -1,0 +1,8 @@
+name: "Check spelling"
+on: [workflow_dispatch]
+jobs:
+  checks:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: check-spelling
+      uses: check-spelling/check-spelling@v0.0.18
